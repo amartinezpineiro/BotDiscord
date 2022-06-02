@@ -56,7 +56,7 @@ public class ExampleBot {
                 ;
                 channel.createMessage(MessageCreateSpec.builder()
                         .content("content? content")
-                        //.addFile("bot_bbyoda.jpg", fileAsInputStream)
+                        .addFile("bot_bbyoda.jpg", fileAsInputStream)
                         .addEmbed(embed)
                         .build()).subscribe();
             }
